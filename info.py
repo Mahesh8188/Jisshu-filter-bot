@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '26741021'))
 API_HASH = environ.get('API_HASH', '7c5af0b88c33d2f5cce8df5d82eb2a94')
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8114383174:AAEeR_kZRsuorxi7E_5RfN3y_JGWXF7X7N0')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6859451629 7386197638').split()]
@@ -25,8 +25,8 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+A4tVZCXbK2s2Yz
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002372764752').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://devashi624:devashi624@cluster0.01nzx.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb://vegamovies:vegamovies@localhost/vegamovies")
+DATABASE_NAME = environ.get('DATABASE_NAME', "vegamovies")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'lazyfilesx')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
