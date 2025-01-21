@@ -25,8 +25,8 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+A4tVZCXbK2s2Yz
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002372764752').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://devashi624:devashi624@cluster0.01nzx.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb://admin:securepassword@localhost/admin")
+DATABASE_NAME = environ.get('DATABASE_NAME', "admin")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'lazyfilesx')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
