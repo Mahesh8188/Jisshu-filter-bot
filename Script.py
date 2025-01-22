@@ -39,7 +39,7 @@ class script(object):
 <blockquote>🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/vegamoviesnewin'>vegamoviesnewin</a></b></blockquote>"""
     
 
-    ABOUT_TEXT = """<blockquote><b>‣ ᴍʏ ɴᴀᴍᴇ : Mahesh\n‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/Mahesh8182'>Mahesh8182</a>\n‣ ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ\n‣ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ\n‣ ᴅᴀᴛᴀ ʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ\n‣ ʜᴏsᴛᴇᴅ ᴏɴ  : ᴀʟʟ ᴡᴇʙ\n‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ5.2 [sᴛᴀʙʟᴇ]</b></blockquote>"""    
+    ABOUT_TEXT = """<blockquote><b>‣ ᴍʏ ɴᴀᴍᴇ : Mahesh</blockquote></b>\n<blockquote><b>‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/Mahesh8182'>Mahesh8182</a></blockquote></b>\n<blockquote><b>‣ ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ</blockquote></b>\n<blockquote><b>‣ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ</blockquote></b>\n<blockquote><b>‣ ᴅᴀᴛᴀ ʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ</blockquote></b>\n<blockquote><b>‣ ʜᴏsᴛᴇᴅ ᴏɴ  : ᴀʟʟ ᴡᴇʙ</blockquote></b>\n<blockquote><b>‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ5.2 [sᴛᴀʙʟᴇ]</b></blockquote>"""    
     
     SUPPORT_GRP_MOVIE_TEXT = '''<b>ʜᴇʏ {}
 
