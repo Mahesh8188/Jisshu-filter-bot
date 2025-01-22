@@ -115,7 +115,7 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b>{file_name}\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/vegamoviesnewin">𝘃𝗲𝗴𝗮𝗺𝗼𝘃𝗶𝗲𝘀𝗻𝗲𝘄𝗶𝗻</a>」</b>"""
+    FILE_CAPTION = """<blockquote><b>{file_name}</b></blockquote>\n\n<blockquote><b>{file_size}</b></blockquote>\n\n<blockquote><b>{quality}</b></blockquote>\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/vegamoviesnewin">𝘃𝗲𝗴𝗮𝗺𝗼𝘃𝗶𝗲𝘀𝗻𝗲𝘄𝗶𝗻</a>」</b>"""
     
 
     ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
