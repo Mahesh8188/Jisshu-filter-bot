@@ -130,7 +130,7 @@ async def refercall(bot, query):
     reply_markup = InlineKeyboardMarkup(btn)
     await bot.send_photo(
         chat_id=query.message.chat.id,
-        photo="https://graph.org/file/1a2e64aee3d4d10edd930.jpg",
+        photo="https://envs.sh/gSI.jpg",
         caption=f'Hay Your refer link:\n\nhttps://t.me/{bot.me.username}?start=reff_{query.from_user.id}\n\nShare this link with your friends, Each time they join, you will get 10 referral points and after 100 points you will get 1 month premium subscription.',
         reply_markup=reply_markup,
         parse_mode=enums.ParseMode.HTML
