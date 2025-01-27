@@ -10,7 +10,7 @@ from marshmallow.exceptions import ValidationError
 from info import FILE_DB_URI, SEC_FILE_DB_URI, DATABASE_NAME, COLLECTION_NAME, MAX_BTN
 
 client = AsyncIOMotorClient(FILE_DB_URI)
-db = client[DATABASE_NAME]
+mydb = client[DATABASE_NAME]
 col = db[COLLECTION_NAME]
 
 # Second Database For File Saving
