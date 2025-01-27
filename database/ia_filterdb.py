@@ -17,7 +17,7 @@ col = db[COLLECTION_NAME]
 sec_client = AsyncIOMotorClient(SEC_FILE_DB_URI)
 sec_db = sec_client[DATABASE_NAME]
 sec_col = sec_db[COLLECTION_NAME]
-instance = Instance.from_db(db)
+instance = Instance.from_db(mydb)
 
 @instance.register
 class Media(Document):
