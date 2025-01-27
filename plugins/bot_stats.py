@@ -85,8 +85,6 @@ async def groups_list(bot, message):
 
 @Client.on_message(filters.command('stats') & filters.user(ADMINS) & filters.incoming)
 async def get_ststs(bot, message):
-    rju = await message.reply('Fetching stats..')
-    try:
     users = await db.total_users_count()
     groups = await db.total_chat_count()
     size = get_size(await db.get_db_size())
