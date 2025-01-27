@@ -107,7 +107,6 @@ def select_collection_based_on_size(file):
         return sec_col
     return col
 
-async def get_search_results(chat_id, query, file_type=None, max_results=10, offset=0, filter=False):
 async def get_search_results(query, max_results=MAX_BTN, offset=0, lang=None):
     query = query.strip()
     if not query:
