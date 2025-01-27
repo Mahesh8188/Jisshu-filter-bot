@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.errors.exceptions.bad_request_400 import MessageTooLong
 from info import ADMINS, LOG_CHANNEL, USERNAME
 from database.users_chats_db import db
-from database.ia_filterdb import Media, get_files_db_size
+from database.ia_filterdb import Media, get_files_db_size, get_files_db_size2
 from utils import get_size, temp
 from Script import script
 from datetime import datetime
@@ -85,6 +85,8 @@ async def groups_list(bot, message):
 
 @Client.on_message(filters.command('stats') & filters.user(ADMINS) & filters.incoming)
 async def get_ststs(bot, message):
+    rju = await message.reply('Fetching stats..')
+    try:
     users = await db.total_users_count()
     groups = await db.total_chat_count()
     size = get_size(await db.get_db_size())
@@ -92,7 +94,9 @@ async def get_ststs(bot, message):
     files = await Media.count_documents()
     db2_size = get_size(await get_files_db_size())
     db2_free = get_size(536870912)
+    db3_size = get_size(await get_files_db_size2())
+    db3_free = get_size(536870912)
     uptime = time.strftime("%Hh %Mm %Ss", time.gmtime(time.time() - time.time()))
     ram = psutil.virtual_memory().percent
     cpu = psutil.cpu_percent()
-    await message.reply_text(script.STATUS_TXT.format(users, groups, size, free, files, db2_size, db2_free, uptime, ram, cpu))
+    await message.reply_text(script.STATUS_TXT.format(users, groups, size, free, files, db2_size, db2_free, db3_size, db3_free, uptime, ram, cpu))
