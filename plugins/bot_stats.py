@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.errors.exceptions.bad_request_400 import MessageTooLong
 from info import ADMINS, LOG_CHANNEL, USERNAME
 from database.users_chats_db import db
-from database.ia_filterdb import Media, col, sec_col, get_file_details, unpack_new_file_id, get_bad_files, mydb as vjdb, sec_db
+from database.ia_filterdb import col, sec_col, get_file_details, unpack_new_file_id, get_bad_files, mydb as vjdb, sec_db
 from utils import get_size, temp
 from Script import script
 from datetime import datetime
