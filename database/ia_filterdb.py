@@ -9,12 +9,12 @@ from motor.motor_asyncio import AsyncIOMotorClient
 from marshmallow.exceptions import ValidationError
 from info import FILE_DB_URI, SEC_FILE_DB_URI, DATABASE_NAME, COLLECTION_NAME, MAX_BTN
 
-client = MongoClient(FILE_DB_URI)
+client = AsyncIOMotorClient(FILE_DB_URI)
 db = client[DATABASE_NAME]
 col = db[COLLECTION_NAME]
 
 # Second Database For File Saving
-sec_client = MongoClient(SEC_FILE_DB_URI)
+sec_client = AsyncIOMotorClient(SEC_FILE_DB_URI)
 sec_db = sec_client[DATABASE_NAME]
 sec_col = sec_db[COLLECTION_NAME]
 instance = Instance.from_db(db)
