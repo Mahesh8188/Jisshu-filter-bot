@@ -11,7 +11,7 @@ from info import FILE_DB_URI, SEC_FILE_DB_URI, DATABASE_NAME, COLLECTION_NAME, M
 
 client = AsyncIOMotorClient(FILE_DB_URI)
 mydb = client[DATABASE_NAME]
-col = db[COLLECTION_NAME]
+col = mydb[COLLECTION_NAME]
 
 # Second Database For File Saving
 sec_client = AsyncIOMotorClient(SEC_FILE_DB_URI)
