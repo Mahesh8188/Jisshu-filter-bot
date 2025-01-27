@@ -81,12 +81,6 @@ Bʏ @vegamoviesnewin</b>"""
 » ᴛᴏᴛᴀʟ ꜰɪʟᴇs - <code>{}</code>
 » ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ - <code>{} / {}</code>
 
-<u>🗳 ᴅᴀᴛᴀʙᴀsᴇ 3 🗳</u></b>
-
-» ᴛᴏᴛᴀʟ ꜰɪʟᴇs - <code>{}</code>
-» ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ - <code>{} / {}</code>
-
-
 <u>🤖 ʙᴏᴛ ᴅᴇᴛᴀɪʟs 🤖</u>
 
 » ᴜᴘᴛɪᴍᴇ - <code>{}</code>
