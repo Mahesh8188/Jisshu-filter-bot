@@ -70,15 +70,22 @@ BOT WORKING PROPERLY 🔥"""
 Bʏ @vegamoviesnewin</b>"""
         
     
-    STATUS_TXT = """<b>    
-‣ ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ : <code>{}</code>
-‣ ᴛᴏᴛᴀʟ ᴜꜱᴇʀꜱ : <code>{}</code>
-‣ ᴛᴏᴛᴀʟ ɢʀᴏᴜᴘꜱ : <code>{}</code>
-‣ ᴜꜱᴇᴅ ꜱᴛᴏʀᴀɢᴇ : <code>{}</code>
-‣ ꜰʀᴇᴇ ꜱᴛᴏʀᴀɢᴇ : <code>{}</code>
-‣ ᴜꜱᴇᴅ ꜱᴛᴏʀᴀɢᴇ2 : <code>{}</code>
-‣ ꜰʀᴇᴇ ꜱᴛᴏʀᴀɢᴇ2 : <code>{}</code>
-</b>"""
+    STATUS_TXT = """<b><u>🗃 ᴅᴀᴛᴀʙᴀsᴇ 1 🗃</u>
+
+» ᴛᴏᴛᴀʟ ᴜsᴇʀs - <code>{}</code>
+» ᴛᴏᴛᴀʟ ɢʀᴏᴜᴘs - <code>{}</code>
+» ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ - <code>{} / {}</code>
+
+<u>🗳 ᴅᴀᴛᴀʙᴀsᴇ 2 🗳</u></b>
+
+» ᴛᴏᴛᴀʟ ꜰɪʟᴇs - <code>{}</code>
+» ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ - <code>{} / {}</code>
+
+<u>🤖 ʙᴏᴛ ᴅᴇᴛᴀɪʟs 🤖</u>
+
+» ᴜᴘᴛɪᴍᴇ - <code>{}</code>
+» ʀᴀᴍ - <code>{}%</code>
+» ᴄᴘᴜ - <code>{}%</code></b>"""
 
     NEW_USER_TXT = """<b>#New_User {}
 
