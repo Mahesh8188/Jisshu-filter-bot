@@ -89,11 +89,11 @@ async def get_ststs(bot, message):
     total_users = await db.total_users_count()
     totl_chats = await db.total_chat_count()
     files = await Media.count_documents()
-    size = await mydb.get_files_db_size()
+    size = get_size(await get_files_db_size())
     free = 536870912 - size
     size = get_size(size)
     free = get_size(free)
-    size2 = await sec_db.files_db_size()
+    size2 = get_size(await files_db_size())
     free2 = 536870912 - size2
     size2 = get_size(size2)
     free2 = get_size(free2)
