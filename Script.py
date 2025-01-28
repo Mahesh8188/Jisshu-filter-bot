@@ -70,21 +70,15 @@ BOT WORKING PROPERLY 🔥"""
 Bʏ @vegamoviesnewin</b>"""
         
     
-    STATUS_TXT = """<b>Total Files From All DBs: <code>{}</code>
-
-USERS DB :-
-★ Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
-★ Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
-
-FILE FIRST DB :-
-★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
-★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
-★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
-
-FILE SECOND DB :-
-★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
-★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
-★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code></b>"""
+    STATUS_TXT = """<b>    
+‣ ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ : <code>{}</code>
+‣ ᴛᴏᴛᴀʟ ᴜꜱᴇʀꜱ : <code>{}</code>
+‣ ᴛᴏᴛᴀʟ ɢʀᴏᴜᴘꜱ : <code>{}</code>
+‣ ᴜꜱᴇᴅ ꜱᴛᴏʀᴀɢᴇ : <code>{}</code>
+‣ ꜰʀᴇᴇ ꜱᴛᴏʀᴀɢᴇ : <code>{}</code>
+‣ ᴜꜱᴇᴅ ꜱᴛᴏʀᴀɢᴇ2 : <code>{}</code>
+‣ ꜰʀᴇᴇ ꜱᴛᴏʀᴀɢᴇ2 : <code>{}</code>
+</b>"""
 
     NEW_USER_TXT = """<b>#New_User {}
 
