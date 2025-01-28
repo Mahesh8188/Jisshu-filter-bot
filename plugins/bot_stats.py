@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.errors.exceptions.bad_request_400 import MessageTooLong
 from info import ADMINS, LOG_CHANNEL, USERNAME
 from database.users_chats_db import db
-from database.ia_filterdb import Media
+from database.ia_filterdb import Media, mydb, sec_db
 from utils import get_size, temp
 from Script import script
 from datetime import datetime
@@ -93,7 +93,7 @@ async def get_ststs(bot, message):
     free = 536870912 - size
     size = get_size(size)
     free = get_size(free)
-    size2 = await db.get_db_size()
+    size2 = await sec_db.get_db_size()
     free2 = 536870912 - size2
     size2 = get_size(size2)
     free2 = get_size(free2)
