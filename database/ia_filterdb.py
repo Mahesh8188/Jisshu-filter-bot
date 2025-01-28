@@ -36,6 +36,9 @@ class Media(Document):
 async def get_files_db_size():
     return (await mydb.command("dbstats"))['dataSize']
 
+async def files_db_size():
+    return (await sec_db.command("dbstats"))['dataSize']
+
 async def save_file(media):
     """Save file in the database."""
     
