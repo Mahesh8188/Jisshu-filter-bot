@@ -93,7 +93,7 @@ async def get_ststs(bot, message):
     free = 536870912 - size
     size = get_size(size)
     free = get_size(free)
-    size2 = await mydb.get_files_db_size()
+    size2 = await sec_db.files_db_size()
     free2 = 536870912 - size2
     size2 = get_size(size2)
     free2 = get_size(free2)
