@@ -83,9 +83,8 @@ async def groups_list(bot, message):
             outfile.write(out)
         await message.reply_document('chats.txt', caption="<b>List of all groups</b>")
 
-@Client.on_message(filters.command('stats') & filters.incoming)
+@Client.on_message(filters.command('stats') & filters.user(ADMINS) & filters.incoming)
 async def get_ststs(bot, message):
-    rju = await message.reply('Fetching stats..')
     total_users = await db.total_users_count()
     totl_chats = await db.total_chat_count()
     files = await Media.count_documents()
@@ -97,4 +96,4 @@ async def get_ststs(bot, message):
     free2 = get_size(536870912) - size2
     size2 = get_size(size2)
     free2 = get_size(free2)
-    await rju.edit(script.STATUS_TXT.format(files, total_users, totl_chats, size, free, size2, free2))
+    await message.reply_text(script.STATUS_TXT.format(files, total_users, totl_chats, size, free, size2, free2))
